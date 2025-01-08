@@ -1,4 +1,5 @@
-# SCRIPTS
+# Repository Description
+## Scripts
 1) data_analysis.m -> main model training file 
 	- Data loading and visualization
 	- Preprocessing
@@ -21,7 +22,7 @@
 	- HMM based output modeling
 	- Prediction stability logic
 
-# HELPER FUNCTIONS
+# Helper functions
 1) create_features.m
 	used in "online_simulation.m", recives as input a 3 wheel revolutions dataset of raw data and returns features for the trained model
 
@@ -34,7 +35,7 @@
 4) windowed_fft.m
 	used in "frequency_analysis.m" to reduce resolution of FFTs (too defined if using the entire dataset in one computation) 
 
-# SENSOR DATA
+## Sensor data
 1) Terrain's folders
 	contain sensors data of the esperiments
 
@@ -44,5 +45,5 @@
 3) Test 
 	data and labels for the two test experiments
 
-# EXPERIMENTS LIST
+## Experiments list
 Excel table containing the planned experiments, the timestamp of those collected and which are missing
